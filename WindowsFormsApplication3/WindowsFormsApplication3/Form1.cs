@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace WindowsFormsApplication3
 {
     public partial class Form1 : Form
     {
@@ -19,12 +19,20 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Okul_VT2Entities ctx = new Okul_VT2Entities();
-            Notlar n1 = new Notlar();
+            Model1 ctx = new Model1();
+            Kurs k1 = new Kurs();
+            k1.KursAdi = "SmartPro Yazılım";
+            k1.KursAdresi = "Kadıköy";
+            
 
-            n1.Not1 = 16;
-            n1.Not2 = 93;
-            ctx.Not_Kaydet(n1.Not1, n1.Not2);
+
+            Ogrenci o1 = new Ogrenci();
+            
+            o1.KursOgrenci=k1;
+            //v1.Ogrenciler.Add(o1);
+
+            ctx.Ogrencis.Add(o1);
+            ctx.Kurss.Add(k1);
             ctx.SaveChanges();
         }
     }
