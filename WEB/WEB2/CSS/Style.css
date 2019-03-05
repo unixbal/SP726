@@ -1,0 +1,69 @@
+﻿body
+{
+}
+div#ContainerDiv
+{
+    width:95%;
+    float:left;
+    background:#0f6167
+}
+div.AnaSayfaDiv
+{
+    border: 3px solid tomato;
+    margin: 10px;
+    background:#808080;
+}
+div.AnasayfaIcDiv
+{
+     border: 3px solid tomato;
+    margin: 10px;
+    background:#ABC888;
+}
+
+div#UstDiv
+{
+    height:140px;
+}
+div#MenuDiv
+{
+    height:30px;
+}
+
+div#SolAnaDiv
+{
+    width: 200px; 
+    float:left;
+}
+div#SolDiv
+{
+    
+    
+    height: 370px;
+    
+}
+div#ReklamDiv
+{
+    height:120px;
+}
+
+div#SlideDiv
+{
+    height: 140px;
+    width:calc(100% - 264px);
+    float:left;
+    
+}
+div#AltIcerikDiv
+{
+    float:left;
+    
+    width:calc(100% - 264px);
+    height:140px;
+
+}
+div#FooterDiv
+{
+    float:left;
+    width:97%;
+    height:65px;
+}

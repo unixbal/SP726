@@ -1,0 +1,78 @@
+﻿body
+{
+}
+
+div#ContainerDisDiv
+{
+    width:95%;
+    float:left;
+    background:#ff6a00;
+}
+div#ContainerDiv
+{
+    width:95%;
+    float:left;
+    background:#ffd800;
+}
+div.AnaSayfaDiv
+{
+    border:3px solid black;
+    margin: 10px;
+    background:#ffd800;
+}
+div#SlayeterDiv
+{
+    float:left;
+    width:98%;
+    height: 140px;
+}
+div#MenuBarDiv
+{
+    float:left;
+    width:98%;
+    height:40px;
+}
+div#Box1Div
+{
+    float:left;
+    width:23.2%;
+    height:140px;
+}
+div#Box2Div
+{
+    float:left;
+    width:23.2%;
+    height:140px;
+}
+div#Box3Div
+{
+    float:left;
+
+    width:23.2%;
+    height:140px;
+}
+div#Box4Div
+{
+    float:left;
+    width:23.2%;
+    height:140px;
+}
+
+div.AnaSayfaAltDiv
+{
+    border:3px solid black;
+    margin: 10px;
+    background:#134c68;
+}
+div#AltAnaFooterDiv
+{
+    width:95%;
+    float:left;
+    background:#37247c;
+}
+div#FooterDiv
+{
+    float:left;
+    width:98%;
+    height:240px;
+}

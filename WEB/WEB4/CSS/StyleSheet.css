@@ -1,0 +1,80 @@
+﻿body
+{
+}
+header{
+    background-color:#504d54;
+    width:100%;
+    margin:auto;
+    height: 158px;
+    position: fixed;
+     
+}
+header section.secFas
+{
+    background-color:#504d54;
+    float:left;
+    
+}
+header nav
+{
+    background-color:#504d54;
+    float:left;
+    font-family: Genath,Times,serif;
+    font-size:x-large;
+    padding:56px 19px 14px 16px;
+    
+}
+header section p
+{
+    
+    color:#d7d5d8;
+        font-family: Genath,Times,serif;
+        font-size:50px;
+        margin-left:100px;
+        padding: 0px 11px;
+         
+        
+}
+header nav a
+{
+    color:#aeabb2;
+    display: block;
+    text-decoration: none;
+   
+}
+
+header ul
+{
+     
+     list-style-type:none;
+     margin: 5px;
+     padding: 5px;
+    
+     overflow:hidden;
+     
+     
+}
+header ul li
+{
+    display:inline-block;
+   
+    text-align: center;
+}
+header a:hover {
+    background-color: #555;
+    color: white;
+}
+header ul li a
+{
+    padding: 8px 16px;
+}
+header section.sepet label
+{
+     color:#d7d5d8;
+        font-family: Genath,Times,serif;
+        font-size:23px;
+        margin-top:71px;
+        
+    
+}
+
