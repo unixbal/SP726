@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Js EXs3</title>
+    <script src="Script1.js" defer="true"></script>
+    <style>
+        main
+        {
+            border:2px solid darkgray;
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            column-gap:5px;
+            border-radius:20px;
+
+
+        }
+        section
+        {
+            background-color:cadetblue;
+        }
+        button
+        {
+            background-color:azure;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <input type="text" id="input" name="Sayı:" placeholder="Sayı Giriniz"/>
+            <p id="sayi"></p>
+            <button onclick="SayiDeger()">Tıkla</button>
+        </section>
+        <section>
+            <input type="color" id="color" onchange="color" />
+        </section>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ASP.NET_1.Site1" %>
+
+<%@ Register Src="~/nav_ust_control.ascx" TagPrefix="uc1" TagName="nav_ust_control" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="css/StyleSheet1.css" />
+    <title>Degisecek</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <main>
+
+    <header id="header_ust">
+        HEADER CONTENT
+    </header>
+        <nav id="nav_ust">
+            <uc1:nav_ust_control runat="server" ID="nav_ust_control" />
+        </nav>
+    <form id="form1" runat="server">
+        <section class="content_sections">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </section>
+ 
+    </form>
+        <footer id="footer_alt">
+            FOOTER CONTENT
+        </footer>
+    </main>
+</body>
+</html>

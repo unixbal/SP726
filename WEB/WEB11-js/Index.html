@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JQUERY EXPS3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".secilmedi").mouseover(function () {
+                $(".secilmedi").removeClass(".secilmedi").addClass("secili");
+               
+            })
+            $("#btn2").click(function () {
+                alert($(".shadow").val())
+                $("#kutu2").css({ "border": $(".shadow").val(), "background-color": $(".renkdegisimi").val(), "font-size": $(".size").val() + "px" })
+                $("#kutu2 article").before("<h3> asdaghskfas <\h3>");
+            });
+        })
+    </script>
+    <style>
+        .container {
+            border: 2px solid #00ba18;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+            
+        }
+
+        .kutu {
+            
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+        }
+        .secili:focus{
+            background-color:yellow;
+            font-size:20px;
+        }
+        .secilmedi{
+            background-color:unset;
+            font-size:unset;
+            border:1px solid;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="kutu1" class="kutu">
+            <input type="text" class="secilmedi shadow"/>
+            <input type="text" class="secilmedi size"/>
+            <input type="color" class="secilmedi renkdegisimi"/>
+            <button type="button" id="btn2"  class="secilmedi">Tıkla</button>
+        </section>
+        <section id="kutu2" class="kutu">
+            <article>
+            Merhaba</article>
+        </section>
+
+    </main>
+
+</body>
+</html>

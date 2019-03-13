@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JQUERY EXs2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .container {
+            border: 2px solid #00ba18;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+        }
+
+        .kutu, .kutu2 {
+            background-color: #f2f3ca;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+        }
+   
+
+   
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("#btn2").click(function () {
+                $("#kutu2").css({ "background-color": $(".renkdegisimi").val(), "font-size": $(".size").val() + "px" })
+                $("#kutu2 article").before("<h3> asdaghskfas <\h3>");
+            });
+        })
+    </script>
+</head>
+<body>
+    <main class="container">
+        <section id="kutu1" class="kutu">
+            <input class="renkdegisimi" type="color" />
+            <input class="size" type="text" />
+            <button type="button" id="btn2">işle</button>
+        </section>
+        <section id="kutu2" class="kutu">
+
+            <article>asdwad</article>
+        </section>
+    </main>
+</body>
+</html>
+
+
+

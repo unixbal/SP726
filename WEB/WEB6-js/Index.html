@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS EXs</title>
+    <script src="Script2.js"></script>
+    <style>
+        main
+        {
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr;
+            height:auto;
+            column-gap:5px;
+            row-gap:5px;
+
+        }
+        .box
+        {
+            background-color:darkslategray;
+        }
+      
+     
+    </style>
+</head>
+<body>
+    <main>
+        <section class="box">
+            <p style="color:white;font-size:xx-large">3+4=?</p>
+            <button onclick="Toplama()">Tıkla</button>
+        </section>
+        <section class="box">
+            <p id="kelime">ID Alert</p>
+            <button onmouseover="IDkelime()" >ID kullan</button>
+        </section>
+        <section class="box" id="box3">
+            <p id="add" style="color:deeppink"></p>
+            <button onclick="bordersize()" onmousewheel="kelimeAdd()">Tıkla</button>
+        </section>
+    </main>
+</body>
+</html>

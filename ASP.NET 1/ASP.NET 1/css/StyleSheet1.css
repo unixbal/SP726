@@ -1,0 +1,62 @@
+﻿main {
+    width:900px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+}
+header#header_ust
+{
+    background-color:#609fce;
+    grid-column-start:1;
+    grid-column-end:5;
+     height:130px;
+ 
+}
+nav#nav_ust{
+    background-color:aliceblue;
+    grid-column-start:1;
+    grid-column-end:5;
+    height:45px;
+
+}
+nav#nav_ust ul{
+    height:45px;
+    padding:0 !important;
+    margin:0 !important;
+    line-height:45px;
+}
+nav#nav_ust ul li{
+    float:left;
+    list-style-type:none;
+    padding-left:10px;
+}
+nav#nav_ust ul li a{
+    text-decoration:none;
+}
+footer#footer_alt{
+    background-color:antiquewhite;
+    grid-column-start:1;
+    grid-column-end:5;
+    height:100px;
+}
+section.content_sections
+{
+    min-height:100px;
+    height:auto;
+    background-color:blueviolet;
+    float:left;
+    width:100%;    
+}
+main>form{
+ 
+    grid-column-start:1;
+    grid-column-end:5;
+    
+}
+section.film_kadet_section{
+    padding:25px;
+    background-color:darkolivegreen;
+}
+ 
+

@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Blog Proje/blog</title>
+    <style>
+        main {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 100%;
+        }
+
+        header {
+            height: 250px;
+            background-image: url(87849.jpg);
+        }
+
+        nav {
+            background-color: rgba(89, 196, 111, 0.84);
+            padding: 10px;
+            font-weight: bolder;
+            font-size: 20px;
+            height: 70px;
+        }
+
+            nav ul li {
+                margin-right: 10px;
+                list-style: none;
+                float: left;
+            }
+
+                nav ul li a {
+                    text-decoration: none;
+                }
+
+            nav label {
+                margin-right: 5px;
+                float: right;
+            }
+
+            nav input {
+                height: 30px;
+                float: right;
+            }
+
+        #kategori {
+            width: 25%;
+            background-color: bisque;
+            height: 450px;
+            float: left;
+
+        }
+
+        #content {
+            width: 75%;
+            background-color: aqua;
+            height: 450px;
+            float: left;
+            
+            
+            
+        }
+
+        footer {
+            width: 100%;
+            height: 250px;
+            background-color: #28558d;
+            float: left;
+        }
+        h3{
+            font-weight:bolder;
+            font-size:25px;
+            color:#5e2dae;
+        }
+        hr{
+            height:3px;
+            outline-style:solid;
+            outline-color:#5e2dae;
+            outline-width:thin;
+           
+            
+        }
+        #boxes{
+           display:grid;
+           grid-template-columns:1fr 1fr 1fr;
+           column-gap:5px;
+           height:450px;
+           
+
+        }
+
+        .box{
+            background-color:red;
+            grid-column:2/span 4
+        }
+        .box2
+        {
+            background-color:yellow;
+
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <header></header>
+        <nav>
+            <ul>
+                <li><a href="Anasayfa.html">Anasayfa</a></li>
+                <li><a href="#">İletişim</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+
+            <input type="search" name="ara" placeholder="Arama" />
+
+        </nav>
+        <section id="container">
+            <section id="kategori">
+                <h3>KATEGORİLER</h3>
+                <hr />
+                <ul>
+                    <li><a href="#">Yazılım</a></li>
+                    <li><a href="#">Robotik</a></li>
+                    <li><a href="#">Proje Yönetimi</a></li>
+                </ul>
+                <hr />
+                <h3>Güncel Makaleler</h3>
+                <hr />
+                <ul>
+                    <li><a href="#">Makale 1</a></li>
+                    <li><a href="#">Makale 2</a></li>
+                    <li><a href="#">Makale 3</a></li>
+                    <li><a href="#">Makale 4</a></li>
+                    <li><a href="#">Makale 5</a></li>
+                </ul>
+                <hr />
+
+
+            </section>
+            <section id="content">
+                <section id="boxes">
+                <section class="box2">
+                    adassa
+                </section>
+                <section class="box">
+                    213123
+                </section>
+               </section>
+            </section>
+
+
+        </section>
+        <footer></footer>
+
+
+
+
+
+
+
+
+    </main>
+</body>
+</html>

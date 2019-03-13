@@ -9,19 +9,21 @@ header{
     position: fixed;
      
 }
-header section.secFas
+.secFas
 {
     background-color:#504d54;
     float:left;
+    width:20%;
     
 }
-header nav
+.navbar
 {
     background-color:#504d54;
     float:left;
     font-family: Genath,Times,serif;
     font-size:x-large;
-    padding:56px 19px 14px 16px;
+    
+    width:60%;
     
 }
 header section p
@@ -68,12 +70,20 @@ header ul li a
 {
     padding: 8px 16px;
 }
+.sepet
+{
+    width:20%;
+    float:left;
+    
+   
+}
 header section.sepet label
 {
      color:#d7d5d8;
         font-family: Genath,Times,serif;
         font-size:23px;
-        margin-top:71px;
+        
+   
         
     
 }

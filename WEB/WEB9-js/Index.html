@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Jquery EXs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                
+                alert($("#inputid").val() + " " + $("p").text());
+                var txt = $("#inputid").val() + " " + $("p").text();
+                $("section").text(txt);
+
+            })
+            $("section").hover(function () {
+                $(this).css("border","5px solid red")
+            })
+            $("section").mouseout(function () {
+                $(this).css("border", "unset")
+            })
+        })
+    </script>
+    <style>
+        main{
+            display:grid;
+            grid-template-column:auto auto auto;
+            column-gap:5px;
+            row-gap:5px;
+        }
+        section{
+            height:200px;
+            border:2px solid #404040;
+            background-color:aqua;
+            margin:0 auto;
+            text-align:center;
+            padding:10px;
+        }
+        button
+        {
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <input type="text" id="inputid" name="input"/><br />
+            <button type="button">Tıkla</button>
+
+            <p><br />selam</p>
+
+        </section>
+
+
+
+    </main>
+
+</body>
+</html>
